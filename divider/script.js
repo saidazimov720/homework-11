@@ -9,3 +9,11 @@ for (var i = 0; i < c.length; i++) {
 }
 
 var indexes = [];
+
+for (var i = 0; i < c.length; i++) {
+    if (c[i] = 'someone') {
+        indexes.push(i);
+        c[i] = i;
+    }
+    
+}
