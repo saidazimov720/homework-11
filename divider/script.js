@@ -15,5 +15,7 @@ for (var i = 0; i < c.length; i++) {
         indexes.push(i);
         c[i] = i;
     }
-    
 }
+
+console.log(indexes);
+console.log(c);
