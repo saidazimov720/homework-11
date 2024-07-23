@@ -9,3 +9,5 @@ function indexsum(text) {
     }
     return sum;
 }
+var result = indexsum(text);
+alert("The sum of indexes is:", + result);
