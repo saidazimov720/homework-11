@@ -4,19 +4,17 @@ for (var i = 0; i < 301; i++) {
     c.push(i);
 }
 
-for (var i = 0; i  < c.length; i++) {
-    c[i] = 'someone';
-}
-
 var indexes = [];
 
-for (var i = 0; i < c.length; i++) {
-    if (c[i] = 'someone') {
-        indexes.push(i);
-        c[i] = i;
-    }
+for (var i = 0; i < c.length; i ++) {
+    c[i] = `someone${i}`;
+    indexes.push(i);
 }
 
 console.log(c);
-console.log(indexes);
 
+for (var i = 0; i < indexes.length; i++) {
+    c[indexes[i]] = indexes[i];
+}
+
+console.log(indexes);
